@@ -17,7 +17,6 @@ header{
     background-color: rgba(255, 144, 14, 0.1);
     margin-bottom: 85px;
 }
-
 .navigation{
     display: flex;
     justify-content: space-between;

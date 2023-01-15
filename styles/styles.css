@@ -9,7 +9,9 @@ body{
     font-family: 'Work Sans', sans-serif;
   }
 
+  
 /*--- Header Part--- */
+
 header{
     display: flex;
     width: 100%;
@@ -73,6 +75,7 @@ header{
     height: 700px;
     width: 100%;
 }
+
 
 /* -------Main Part------- */
 

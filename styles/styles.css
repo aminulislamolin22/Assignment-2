@@ -75,6 +75,24 @@ header{
     width: 100%;
 }
 
+@media screen and (max-width: 576px) {
+    .navigation{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .architect{
+        margin: 0;
+        text-align: start;
+    }
+    .image img{
+        width: 100%;
+        height: 100%;
+    }
+}
 
 /* -------Main Part------- */
 
@@ -111,6 +129,15 @@ header{
     color: #FF900E;
 }
 
+@media screen and (max-width: 576px){
+    .first-feature{
+        flex-direction: column;
+
+    }
+    .feature-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 /* ---Second Feature Part--- */
 
@@ -181,6 +208,18 @@ header{
     font-size: 25px;   
 }
 
+@media screen and (max-width: 576px){
+    .second-feature{
+        flex-direction: column;
+    }
+     .architect-image{
+        width: 100%;
+        height: 100%;
+    }
+    .experience-button{
+        position: static;
+    }
+}
 
 /*------ Some Facts Part ------ */
 
@@ -245,6 +284,21 @@ header{
     filter: grayscale(100%);
 }
 
+@media screen and (max-width: 576px){
+    .facts{
+        padding: 10px;
+    }
+    .facts-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .sponsors-container{
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
 /* ---Footer Part--- */
 
 .footer{
@@ -256,4 +310,11 @@ header{
     color: #424242;
     background-color: #FFF4E7;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 576px){
+    .footer{
+        padding: 10px;
+        margin: 10px;
+    }
 }
